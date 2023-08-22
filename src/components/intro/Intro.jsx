@@ -31,7 +31,7 @@ const Intro = () => {
             </article>
           </div>
           <p>
-            1+ years experienced Front End Developer with hands-on experience in
+            1+ years experienced Web Developer with hands-on experience in
             identifying web-based user interactions along with designing and
             implementing highly-responsive user interface components by
             deploying React concepts. Proficient in translating designs and
