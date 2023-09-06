@@ -2,8 +2,9 @@ import "./portfolio.css";
 
 import IMG1 from "../../assets/Buta.png";
 import IMG2 from "../../assets/Bayburt-Grup.png";
-import IMG3 from "../../assets/BaySav.png";
-import IMG4 from "../../assets/Burger.png";
+import IMG3 from "../../assets/bss.png";
+import IMG4 from "../../assets/shenbay.png";
+import IMG5 from "../../assets/Burger.png";
 import React from "react";
 
 //Portfolio function
@@ -26,7 +27,7 @@ const Portfolio = () => {
       description:
         "This project is a page that reflects information and work of Bayburt Grup Holding.",
       technologies: "Html | CSS | Javascript",
-      link: "https://bayburt-grup.netlify.app/",
+      link: "https://test.recruit.az/",
       github: "https://github.com/camalmikayilov/Bayburt-Grup/tree/main",
     },
     {
@@ -34,14 +35,24 @@ const Portfolio = () => {
       title: "Bayburt Savunma",
       img: IMG3,
       description: "This project reflects information available to the media about the projects of the Bayburt Defense Company.",
-      technologies: "Html | CSS | Javascript",
-      link: "https://bayburt-savunma.netlify.app/",
+      technologies: "Html | CSS | Bootstrap | JavaScript",
+      link: "https://baysav.com/",
       github: "https://github.com/camalmikayilov/Bayburt-Savunma",
     },
     {
       id: 4,
-      title: "Burger Fast Food",
+      title: "Shenbay Holding",
       img: IMG4,
+      description:
+        "This project is a page that reflects information and work of Shenbay Holding.",
+      technologies: "Html | CSS | Bootstrap | JavaScript",
+      link: "https://senbayholding.com.tr/",
+      github: "https://github.com/camalmikayilov/ShenbayHolding",
+    },
+    {
+      id: 5,
+      title: "Burger Fast Food",
+      img: IMG5,
       description:
         "My final project featuring burgers and other related fast food.",
       technologies: "Html | CSS | SASS | JavaScript",
